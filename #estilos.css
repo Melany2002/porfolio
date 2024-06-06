@@ -47,6 +47,14 @@ a:hover {
     cursor: pointer;
 }
 
+.portada {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+
+
 
 main {
 	background-color:#C0B1E0;
