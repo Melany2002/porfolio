@@ -64,8 +64,8 @@ a:hover {
     color:lightpink;
     cursor: pointer;
 	background-color: #3c21b7;
-	border-radius: 25%;
-	padding: 5px 10px 5px 10px;
+	border-radius: 75px;
+	padding: 5px 20px 5px 20px;
 	display: inline-block;
     display: flex;
     flex-direction: row;
@@ -85,11 +85,26 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
 
+h4 {
+	font-family: "atma, Regular";
+    font-size: 10px;
+    color: #051960;
+}
+
+#porfolio {
+	font-family:"Macondo Swash Caps";
+    font-size: 80px;
+	-webkit-text-stroke: 1px #051960;
+	color: transparent;
+	position: relative;
+	top: 290px;
+	right: 375px;
 }
 
 .portada {
-	width: 100%;
+	width: 100px;
 	height: 600px;
 	display: flex;
 	margin-left: 180px;
@@ -98,22 +113,22 @@ h2 {
 .apellido {
 	font-family: "Macondo Swash Caps";
 	font-size: 80px;
-    border-color: #051960;
-	color: none;
 	display: flex;
+	-webkit-text-stroke: 1px #051960;; 
+	color: transparent;
 }
 
 .nombre {
 	font-family: "Macondo Swash Caps";
 	font-size: 80px;
     border-color: #051960;
-	color: none;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	-webkit-text-stroke: 1px #051960;; 
+	color: transparent;
+	right: 400px
 }
-
-
 
 main {
 	background: linear-gradient(180deg, #78a3eb, #fbc2eb);
@@ -126,7 +141,7 @@ main {
 footer {
 	background-color: #78a3eb;
 	width: 100%;
-	height: 150px;
+	height: 60px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
