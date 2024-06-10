@@ -85,11 +85,28 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: absolute;
+	top: 150px;
+	right: 135px;
+}
+
+h3 {
+	font-family: "Macondo Swash Caps";
+	font-size: 50px;
+    color: #051960;
+	padding-right: 300px;
+	padding-bottom: 40px;
 }
 
 h4 {
-	font-family: "atma, Regular";
+	font-family: "atma";
     font-size: 10px;
+    color: #051960;
+}
+
+p {
+	font-family: "atma";
+    font-size: 20px;
     color: #051960;
 }
 
@@ -99,8 +116,15 @@ h4 {
 	-webkit-text-stroke: 1px #051960;
 	color: transparent;
 	position: relative;
-	top: 290px;
-	right: 375px;
+	position: absolute;
+	top: 190px;
+	right: 123px;
+}
+
+.planeta {
+	position: relative;
+	top: 100px;
+	right: 100px;
 }
 
 .portada {
@@ -108,6 +132,12 @@ h4 {
 	height: 600px;
 	display: flex;
 	margin-left: 180px;
+}
+
+.generalportada {
+	background: linear-gradient(180deg, #78a3eb, #fbc2eb);
+	width: 100%;
+	height: 600px;
 }
 
 .apellido {
@@ -127,15 +157,10 @@ h4 {
 	justify-content: flex-end;
 	-webkit-text-stroke: 1px #051960;; 
 	color: transparent;
-	right: 400px
 }
 
 main {
-	background: linear-gradient(180deg, #78a3eb, #fbc2eb);
 	width: 100%;
-	height: 600px;
-	display: flex;
-	flex-direction: column;
 }
 
 footer {
@@ -145,4 +170,103 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.acercademi {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 550px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.yorosa {
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+.textoyo {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	flex-wrap: wrap;
+	max-width: 600px;
+	padding-left: 80px;
+}
+
+.mistrabajos {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.textotrabajos {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 600px;
+	padding-left: 240px;
+}
+
+.botonimagenes {
+	border-radius: 75px;
+	padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boton {
+	font-family: "atma";
+    font-size: 30px;
+    color: #051960;
+	border: 3px, outset;
+	border-color: #5520A4;
+	display: inline-block;
+	padding: 30px 80px 30px 80px;
+	border-radius: 75px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.contacto {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 550px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.digital {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.imagenes {
+	border-radius: 75px;
+	padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones {
+	font-family: "atma";
+    font-size: 30px;
+    color: #051960;
+	border: 3px, outset;
+	border-color: #5520A4;
+	display: inline-block;
+	padding: 100px 100px 100px 100px;
+	border-radius: 45px;
+	margin: 20px;
+	cursor: pointer;
 }
