@@ -21,13 +21,37 @@
                 <section class="yoarte">
                     <img src="img/yoarte.png" alt="yoarte" width="350px" height="258px">
                 </section>
-                <article>
+                <article class="tuopinion">
                     <h3>Dejame tu opinion</h3>
+                    <form method="post" action="mailto:melanystaropoli@gmail.com?subject=Email enviado desde el formulario de Porfolio" target="_blank" enctype="text/plain">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" name="Nombre" id="Nombre" maxlength="20" placeholder="Nombre completo..." required>
+                            <label for="Correo">Correo</label>
+                            <input type="text" name="Correo" id="Correo" maxlength="30" placeholder="Correo electronico completo..." required>
+                        
+                            <label for="Asunto" class="asuntoymensaje">Asunto</label>
+                        <div>
+                            <label for="Asunto">Consulta<input type="radio" name="Asunto" value="Consulta" id="Consulta"></label>
+                            <label for="Asunto">Trabajo<input type="radio" name="Asunto" value="Trabajo" id="Trabajo"></label>
+                        </div>
+                            <label for="Mensaje" class="asuntoymensaje">Mensaje</label>
+                            <textarea name="Mensaje" id="Mensaje" maxlength="400"></textarea>
+                        <div class="enviarborrar">   
+                            <input type="reset" value="Borrar">
+                            <input type="submit" value="Enviar" formenctype="text/plain">
+                        </div> 
+                    </form>
                 </article>
             </section>
         </main>
         <footer>
-                <h4>¡Trabaje con nosotros! Derechos reservados.</h4>
-        </footer>
+            <h4> My Magical World © 2024 todos los derechos reservados. </h4>
+                <div class="sitios">
+                <a class="footer" href="https://web.whatsapp.com" target="_blank"><img src="img/whatssap.png" alt="whatssap" width="14px" height="15px"></a>
+                <a class="footer" href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagram" width="16px" height="15px"></a>
+                <a class="footer" href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook" width="8px" height="15px"></a>
+                </div>
+            <h4>Unla Computación 3 . 2024</h4>
+    </footer>
     </body>
 </html>
