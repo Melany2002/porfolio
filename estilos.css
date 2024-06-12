@@ -99,6 +99,13 @@ h3 {
 }
 
 h4 {
+	font-family: "Macondo Swash Caps";
+	font-size: 50px;
+    color: #051960;
+	padding-bottom: 40px;
+}
+
+h5 {
 	font-family: "atma";
     font-size: 10px;
     color: #051960;
@@ -212,7 +219,7 @@ footer {
 .mistrabajos {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 550px;
+	height: 650px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -221,7 +228,7 @@ footer {
 .textotrabajos {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 600px;
+	max-width: 500px;
 	padding-left: 240px;
 }
 
@@ -233,61 +240,38 @@ footer {
     justify-content: center;
 }
 
+a.imagenboton {
+	cursor: pointer;
+}
+
+.botimg {
+	height: 100px;
+	width: 200px;
+	border: 3px, solid #5520A4;
+	border-radius: 75px;
+	margin: 30px;
+}
+
 .boton {
+	opacity: 0;
+    transition: opacity 0.3 ease;
 	font-family: "atma";
     font-size: 30px;
     color: #051960;
-	border: 3px, solid;
-	border-color: #5520A4;
-	display: inline-block;
-	padding: 30px 80px 30px 80px;
-	border-radius: 75px;
-	margin: 20px;
-	cursor: pointer;
+	position: relative;
 }
 
 .contacto {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 550px;
+	height: 650px;
 	display: flex;
 	align-items: center;
     justify-content: center;
 }
 
-.digital {
-	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
-	width: 100%;
-	height: 550px;
-	display: flex;
-	flex-direction: column;
-    justify-content: center;
-}
-
-.imagenes {
-	border-radius: 75px;
-	padding: 40px 0px 40px 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.botones {
-	font-family: "atma";
-    font-size: 30px;
-    color: #051960;
-	border: 3px, solid;
-	border-color: #5520A4;
-	display: inline-block;
-	padding: 100px 100px 100px 100px;
-	border-radius: 45px;
-	margin: 20px;
-	cursor: pointer;
-}
-
 .yoarte {
 	padding-left: 200px;
-	padding-top: 30px;	
 }
 
 .tuopinion {
@@ -371,3 +355,76 @@ textarea {
 	color:#051960;
 	padding: 10px;
 }
+
+.digital {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 1300px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.galeriadigital {
+	display: flex;
+	flex-direction: row;
+	margin: 40px 100px 40px 100px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.galeriafoto {
+	display: flex;
+	flex-direction: row;
+	margin: 40px 100px 40px 100px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.galeriamanual {
+	display: flex;
+	flex-direction: row;
+	margin: 40px 100px 40px 100px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.articulo {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	height: 300px;
+	align-items: center;
+}
+
+.imagen { 
+	border-radius: 25px;
+	border: 3px solid #5520A4;
+}
+
+.textoarticulo {
+	width: 80%;
+	align-items: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding-top: 10px;
+}	
+
+p.textoarticulo {
+	font-family: "atma";
+	color: #051960;
+	font-size: 15px;
+}
+
+
+.manual {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 2000px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
