@@ -29,11 +29,10 @@ header {
 nav {
 	display: flex;
 	flex-direction: row;
-	width: 700px;
+	width: 800px;
 	height: 80px;
 	justify-content: flex-end;
 	align-items: center;
-	padding-right: 30px;
 }
 
 nav ul {
@@ -147,16 +146,13 @@ p {
 .planeta {
 	position: relative;
 	top: 100px;
-	right: 100px;
 	height: 425px;
-	position: relative;
 }
 
 .portada {
 	width: 100%;
 	height: 600px;
 	display: flex;
-	margin-left: 180px;
 }
 
 .generalportada {
@@ -167,22 +163,24 @@ p {
 
 .apellido {
 	font-family: "Macondo Swash Caps";
-	font-size: 80px;
+	font-size: 100px;
 	display: flex;
 	-webkit-text-stroke: 1px #051960;
 	color: transparent;
 	margin-bottom: 500px;
+	margin-left: 30px;
 }
 
 .nombre {
 	font-family: "Macondo Swash Caps";
-	font-size: 80px;
+	font-size: 100px;
     border-color: #051960;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	-webkit-text-stroke: 1px #020202; 
 	color: transparent;
+	margin-bottom: 20px;
 }
 
 main {
@@ -215,15 +213,20 @@ footer {
 .acercademi {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	display: flex;
 	align-items: center;
     justify-content: center;
 }
 
+.imgplaneta1 {
+	margin-left: 250px;
+	padding-bottom: 20px;
+}
+
 .yorosa {
 	padding-left: 100px;
-	padding-top: 30px;
+	padding-top: 100px;
 }
 
 .textoyo {
@@ -233,7 +236,9 @@ footer {
 	flex-wrap: wrap;
 	max-width: 570px;
 	padding-left: 80px;
+    padding-bottom: 30px;
 }
+
 
 .mistrabajos {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
@@ -244,18 +249,33 @@ footer {
     justify-content: center;
 }
 
+.sectionestrella1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 600px;
+	align-items: flex-end
+}
+
+.divtrabajos {
+	display: flex;
+	flex-direction: column;
+}
+
 .textotrabajos {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	max-width: 500px;
 	padding-left: 240px;
+	align-items: center;
 }
 
 .botonimagenes {
 	border-radius: 75px;
-	padding: 40px 0px 40px 0px;
+	padding-top: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -268,16 +288,30 @@ a.imagenboton {
 	width: 200px;
 	border: 3px, solid #5520A4;
 	border-radius: 75px;
-	margin: 50px;
+	margin: 20px 50px 50px 50px;
+}
+
+.sectionimag {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+
+.sectionboton {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	margin-right: 190px;
 }
 
 .boton {
-	opacity: 0;
-    transition: opacity 0.3 ease;
 	font-family: "atma";
     font-size: 30px;
     color: #051960;
-	position: relative;
+	display: flex;
+	margin-left: 190px;
+	flex-direction: row;
+    justify-content: center;
 }
 
 .contacto {
@@ -287,6 +321,11 @@ a.imagenboton {
 	display: flex;
 	align-items: center;
     justify-content: center;
+}
+
+.imgestrella2 {
+	margin-bottom: 30px;
+	padding-left: 100px;
 }
 
 .yoarte {
@@ -378,7 +417,7 @@ textarea {
 .digital {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 1300px;
+	height: 1400px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -387,15 +426,15 @@ textarea {
 .galeriadigital {
 	display: flex;
 	flex-direction: row;
-	margin: 40px 100px 40px 100px;
+	margin: 40px 200px 40px 200px;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .galeriafoto {
 	display: flex;
 	flex-direction: row;
-	margin: 40px 100px 40px 100px;
+	margin: 40px 200px 40px 200px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -403,8 +442,8 @@ textarea {
 .galeriamanual {
 	display: flex;
 	flex-direction: row;
-	margin: 40px 100px 40px 100px;
-	justify-content: space-evenly;
+	margin: 40px 200px 40px 200px;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
@@ -412,7 +451,6 @@ textarea {
     padding: 10px 20px 10px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 	height: 300px;
 	align-items: center;
 }
@@ -429,21 +467,38 @@ textarea {
     flex-direction: column;
     justify-content: center;
 	padding-top: 10px;
+
 }	
 
 p.textoarticulo {
 	font-family: "atma";
 	color: #051960;
 	font-size: 15px;
+	text-align: center;
 }
 
 
 .manual {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 2000px;
+	height: 2400px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
+}
+
+.generalfotografia {
+	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
+	width: 100%;
+	height: 1700px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.volver {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
 }
 
