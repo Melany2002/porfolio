@@ -36,9 +36,9 @@ nav {
 	padding-right: 30px;
 }
 
-nav ulm {
+nav ul {
 	list-style: none;
-	width: 500px;
+	width: 400px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -53,14 +53,30 @@ li {
 	display: inline-block;
 }
 
+a.mymagical {
+	text-decoration: none;
+    color: #051960;
+    cursor: pointer;
+}
+
+.mymagical:hover {
+	text-decoration: none;
+    color: #3c21b7;
+    cursor: pointer;
+}
+
 a {
+	text-decoration: none;
+}
+
+nav a {
     text-decoration: none;
     color:#051960;
     cursor: pointer;
 	font-family: "atma";
 }
 
-a:hover {
+nav a:hover {
     color:lightpink;
     cursor: pointer;
 	background-color: #3c21b7;
@@ -132,6 +148,8 @@ p {
 	position: relative;
 	top: 100px;
 	right: 100px;
+	height: 425px;
+	position: relative;
 }
 
 .portada {
@@ -153,6 +171,7 @@ p {
 	display: flex;
 	-webkit-text-stroke: 1px #051960;
 	color: transparent;
+	margin-bottom: 500px;
 }
 
 .nombre {
@@ -162,7 +181,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	-webkit-text-stroke: 1px #051960; 
+	-webkit-text-stroke: 1px #020202; 
 	color: transparent;
 }
 
@@ -212,14 +231,14 @@ footer {
 	flex-direction: row;
     justify-content: center;
 	flex-wrap: wrap;
-	max-width: 600px;
+	max-width: 570px;
 	padding-left: 80px;
 }
 
 .mistrabajos {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 650px;
+	height: 700px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -249,7 +268,7 @@ a.imagenboton {
 	width: 200px;
 	border: 3px, solid #5520A4;
 	border-radius: 75px;
-	margin: 30px;
+	margin: 50px;
 }
 
 .boton {
