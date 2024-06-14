@@ -158,7 +158,7 @@ p {
 	position: relative;
 	top: 100px;
 	height: 425px;
-	animation: rotation 10s infinite linear;
+	animation: rotation 20s infinite linear;
 }
 
 @keyframes rotation {
