@@ -196,7 +196,7 @@ p {
 }
 
 main {
-	width: 1350px;
+	width: 1366px;
 }
 
 footer {
@@ -597,7 +597,7 @@ textarea {
 .generalfotografia {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 1700px;
+	height: 1100px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -707,16 +707,6 @@ p.textomanu {
 
 
 
-
-video {
-	margin-top: 30px;
-	margin-right: 20px;
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-	border-radius: 25px;
-	border: 3px solid #5520A4;
-}
 
 
 
