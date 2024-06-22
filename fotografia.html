@@ -16,6 +16,11 @@
                     <li><a href="contacto.html" target="_self">Contacto</a></li>
                 </ul>
             </nav>
+            <audio id="audio" controls loop src="audio/Coldplay X BTS - My Universe-MP3.mp3" type="audio/mp3" width: 300px;
+                height: 30px;>
+                    <source src="audio/Coldplay X BTS - My Universe-OGG.ogg" type="audio/ogg">
+                    <source src="audio/Coldplay X BTS - My Universe-WAV.wav" type="audio/wav">
+                </audio>
         </header>
         <main>
             <section class="generalfotografia">
@@ -31,6 +36,10 @@
                     <li class="articulo">
                         <img src="img/galerias/Fotografia/Ventanadelosrecuerdos.png" alt="Ventanadelosrecuerdos" class="imagen" width="142px" height="200px">
                         <p class="textoarticulo"> "Ventana de los recuerdos"</p>      
+                    </li>
+                    <li class="articulo">
+                        <img src="img/galerias/Fotografia/MargaritaVioleta.png" alt="MargaritaVioleta" class="imagen" width="106px" height="200px">
+                        <p class="textoarticulo"> "Las Margaritas del jardin"</p>      
                     </li>
                     <li class="articulo">
                         <img src="img/galerias/Fotografia/amanecer1.png" alt="amanecer1" class="imagen" width="267px" height="200px">
@@ -49,10 +58,6 @@
                         <p class="textoarticulo"> Vaciaciones en la playa "Tranquilidad"</p>      
                     </li>
                     <li class="articulo">
-                        <img src="img/galerias/Fotografia/MargaritaVioleta.png" alt="MargaritaVioleta" class="imagen" width="106px" height="200px">
-                        <p class="textoarticulo"> "Las Margaritas del jardin"</p>      
-                    </li>
-                    <li class="articulo">
                         <img src="img/galerias/Fotografia/barcodemadera.png" alt="barcodemadera" class="imagen" width="265px" height="200px">
                         <p class="textoarticulo"> "Barco de madera", materia Fotografia</p>      
                     </li>
@@ -67,6 +72,13 @@
                     <li class="articulo">
                         <img src="img/galerias/Fotografia/molinosdeviento.png" alt="molinosdeviento" class="imagen" width="356px" height="200px">
                         <p class="textoarticulo"> "Contra luz", materia Fotografia</p>      
+                    </li>
+                    <li>
+                    <video src="video/Video_Lights.mp4" controls width="376px" height="200px">
+                        <source src="video/Video_Lights-OGV.ogv" type="video/ogv">
+                        <source src="video/Video_Lights-WEBM.webm" type="video/webm">
+
+                    </video>
                     </li>
                 </div>   
                 <section class="secvolver">
@@ -83,5 +95,13 @@
                 </div>
             <h5>Unla Computación 3 . 2024</h5>
         </footer>
+        <script>
+            function PlayAudio() {
+                document.getElementById("audio").play();
+            }
+            window.onload = function() {
+                document.getElementById("audio").play();
+            }
+        </script>
     </body>
 </html>

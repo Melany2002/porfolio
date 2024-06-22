@@ -11,7 +11,7 @@
 
 header {
 	background-color:#78a3eb;
-	width: 100%;
+	width: 1350px;
 	height: 80px;
     display: flex;
 	flex-direction: row;
@@ -85,6 +85,10 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+::-webkit-media-controls-panel {
+	background-color: #78a3eb;
 }
 
 h1 {
@@ -192,12 +196,12 @@ p {
 }
 
 main {
-	width: 100%;
+	width: 1350px;
 }
 
 footer {
 	background-color: #78a3eb;
-	width: 100%;
+	width: 1350px;
 	height: 60px;
 	display: flex;
 	justify-content: center;
@@ -569,12 +573,8 @@ textarea {
 	flex-wrap: wrap;
 }
 
-.galeriamanual {
-	display: flex;
-	flex-direction: row;
-	margin: 40px 200px 40px 200px;
-	justify-content: space-between;
-	flex-wrap: wrap;
+.galeriafoto img:hover {
+	transform: scale(1.2);
 }
 
 .articulo {
@@ -585,33 +585,10 @@ textarea {
 	align-items: center;
 }
 
-.imagen { 
-	border-radius: 25px;
-	border: 3px solid #5520A4;
-}
-
-.textoarticulo {
-	width: 80%;
-	align-items: center;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-	padding-top: 10px;
-
-}	
-
-p.textoarticulo {
-	font-family: "atma";
-	color: #051960;
-	font-size: 15px;
-	text-align: center;
-}
-
-
 .manual {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 2400px;
+	height: 2200px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -636,6 +613,116 @@ p.textoarticulo {
 	justify-content: center;
 	margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+.contenedor {
+	display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.columna-imagenes {
+	flex: 15%;
+    width: 80%;
+    margin: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.imagen { 
+	border-radius: 25px;
+	border: 3px solid #5520A4;
+	margin-top: 20px;
+}
+
+.columna-imagenes img:hover {
+transform: scale(1.2);
+}
+
+p.textoarticulo {
+	font-family: "atma";
+    color: #051960;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.textoarticulo {
+    width: 70%;
+}
+
+p.textocolumnas {
+	font-family: "atma";
+    color: #051960;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.textocolumnas {
+    width: 50%;
+}
+
+p.textomanu {
+	font-family: "atma";
+    color: #051960;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.textomanu {
+    width: 60%;
+}
+
+.galeriamanual {
+	display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.articulo-imagenes {
+	flex: 15%;
+    width: 80%;
+    margin: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.articulo-imagenes img:hover {
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+video {
+	margin-top: 30px;
+	margin-right: 20px;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+	border-radius: 25px;
+	border: 3px solid #5520A4;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width: 600px) { 

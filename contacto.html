@@ -17,6 +17,11 @@
                     <li><a href="contacto.html" target="_self">Contacto</a></li>
                 </ul>
             </nav>
+            <audio id="audio" controls loop src="audio/Coldplay X BTS - My Universe-MP3.mp3" type="audio/mp3" width: 300px;
+                height: 30px;>
+                    <source src="audio/Coldplay X BTS - My Universe-OGG.ogg" type="audio/ogg">
+                    <source src="audio/Coldplay X BTS - My Universe-WAV.wav" type="audio/wav">
+                </audio>
         </header>
         <main>
             <section class="contacto">
@@ -59,5 +64,13 @@
                 </div>
             <h5>Unla Computación 3 . 2024</h5>
     </footer>
+    <script>
+        function PlayAudio() {
+            document.getElementById("audio").play();
+        }
+        window.onload = function() {
+            document.getElementById("audio").play();
+        }
+    </script>
     </body>
 </html>
