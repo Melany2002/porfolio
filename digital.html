@@ -5,6 +5,17 @@
         <title>mely porfolio</title>
         <link rel="icon" href="img/ballena2_favicon.png">
         <link href="estilos.css" rel="stylesheet" type="text/css">
+        <script>
+            function cambiarDisplay(visibilidadNueva) {
+                document.getElementById("galeria").style.display = visibilidadNueva
+            }
+            function mostrarGaleria() {
+                cambiarDisplay('flex')
+            }
+            function ocultarGaleria() {
+                cambiarDisplay('none')
+            }
+        </script>
     </head>
     <body>
         <header id="cabecera">
