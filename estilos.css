@@ -540,7 +540,7 @@ textarea {
 .digital {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 1400px;
+	height: 900px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -565,30 +565,11 @@ textarea {
 	transform: 1s;
 }
 
-.galeriafoto {
-	display: flex;
-	flex-direction: row;
-	margin: 40px 200px 40px 200px;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.galeriafoto img:hover {
-	transform: scale(1.2);
-}
-
-.articulo {
-    padding: 10px 20px 10px 20px;
-    display: flex;
-    flex-direction: column;
-	height: 300px;
-	align-items: center;
-}
 
 .manual {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 2200px;
+	height: 1200px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -597,7 +578,7 @@ textarea {
 .generalfotografia {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
-	height: 1100px;
+	height: 900px;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -621,16 +602,11 @@ textarea {
 
 
 .contenedor {
-	display: flex;
-    flex-direction: row;
-    padding: 50px;
-}
-
-.columna-imagenes {
-	flex: 15%;
-    width: 80%;
-    margin: 30px;
+	padding: 50px;
+    margin: 0px auto;
     display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-gap: 30px;
     justify-items: center;
 }
 
@@ -640,8 +616,45 @@ textarea {
 	margin-top: 20px;
 }
 
-.columna-imagenes img:hover {
+.contenedor img:hover {
 transform: scale(1.2);
+}
+
+.galeriafoto {
+	padding: 50px;
+    margin: 0px auto;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.galeriafoto img:hover {
+	transform: scale(1.2);
+}
+
+.galeriamanual {
+	padding: 50px;
+    margin: 0px auto;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.galeriamanual img:hover {
+	transform: scale(1.2);
+}
+
+
+
+---
+.articulo {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+	height: 300px;
+	align-items: center;
 }
 
 p.textoarticulo {
@@ -679,31 +692,7 @@ p.textomanu {
 .textomanu {
     width: 60%;
 }
-
-.galeriamanual {
-	display: flex;
-    flex-direction: row;
-    padding: 50px;
-}
-
-.articulo-imagenes {
-	flex: 15%;
-    width: 80%;
-    margin: 30px;
-    display: grid;
-    justify-items: center;
-}
-
-.articulo-imagenes img:hover {
-	transform: scale(1.2);
-}
-
-
-
-
-
-
-
+----
 
 
 
