@@ -11,7 +11,7 @@
 
 header {
 	background-color:#78a3eb;
-	width: 1350px;
+	width: 1366px;
 	height: 80px;
     display: flex;
 	flex-direction: row;
@@ -201,7 +201,7 @@ main {
 
 footer {
 	background-color: #78a3eb;
-	width: 1350px;
+	width: 1366px;
 	height: 60px;
 	display: flex;
 	justify-content: center;
@@ -346,7 +346,7 @@ a.imagenboton {
 .botondi {
 	font-family: "atma";
     font-size: 30px;
-    color: #051960;
+    color:white;
 	display: flex;
 	flex-direction: row;
     justify-content: center;
@@ -380,7 +380,7 @@ a.imagenboton {
 .botonfo {
 	font-family: "atma";
     font-size: 30px;
-    color: #051960;
+    color:white;
 	display: flex;
 	flex-direction: row;
     justify-content: center;
@@ -414,7 +414,7 @@ a.imagenboton {
 .botonma {
 	font-family: "atma";
     font-size: 30px;
-    color: #051960;
+    color:white;
 	display: flex;
 	flex-direction: row;
     justify-content: center;
