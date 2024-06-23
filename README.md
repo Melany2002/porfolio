@@ -1,7 +1,7 @@
 # tp2_recuperatorio_staropoli_melany
 # porfolio
 Mi portfolio se compone de: Un INDEX, 20 HTML5 (Acerca de mí, Mis trabajos, Digital, compu-ojo, afiche-collage, sis-tipo, etiqueta-vinos, Fotografía, amanecer, libertad, tranquilidad, buenos-mates, Manuales, rosas, leon, colibrí, medusas, modauzushi, música, Contacto) y un CSS.
-El editor de código utilizado para este trabajo fue el Visual Studio Code. La resolución de la pantalla de mi computadora en la cual estuve trabajando es de 1350x768 px.
+El editor de código utilizado para este trabajo fue el Visual Studio Code. La resolución de la pantalla de mi computadora en la cual estuve trabajando es de 1366x768 px.
 Con el móvil solo el HTML5 de Contacto tiene @media y hace responsive, en la medida de 600px.
 
 
