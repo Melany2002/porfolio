@@ -260,7 +260,6 @@ footer {
     padding-bottom: 30px;
 }
 
-
 .mistrabajos {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
@@ -565,7 +564,6 @@ textarea {
 	transform: 1s;
 }
 
-
 .manual {
 	background: linear-gradient(180deg, #FEBFEA, #8866D5 );
 	width: 100%;
@@ -641,12 +639,6 @@ p.textoarticulo {
 	border: 3px solid #5520A4;
 	margin-top: 70px;
 }
-
-
-
-
-
-
 
 .galeriafoto {
 	padding: 50px;
