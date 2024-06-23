@@ -746,4 +746,15 @@ p.textoarticulo {
 		font-size: 15px;
 	}
 
+	input {
+		font-family: "atma";
+		font-size: 17px;
+		color: #051960;
+		border-radius: 45px;
+		height: 30px;
+		background-color: transparent;
+		border: 2px solid #5520A4;
+		padding: 5px;
+        width: 790px;
+	}
 }
