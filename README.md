@@ -19,6 +19,7 @@ Inconvenientes durante las correcciones del portfolio:
 
 Link de mi porfolio en Figma: https://www.figma.com/design/RbEQKhjDuuicDH0UYEujm7/Porfolio?node-id=0-1&t=vRLjBqvDJeVa7m4I-1
 
+En las capturas de pantallas aparecera un cartel, en la parte inferior, que es de mi computadora que dice "Activar Window", no tiene nada que ver con el trabajo. Me olvide de informarselos en la entrega anterior.
 
 ¡¡Muchas gracias por darme esta segunda oportunidad de acomodar mis errores en mi portfolio y por la ayuda y el apoyo que me dieron. Disculpen las molestias ocasionadas, tengo que trabajar mucho más tema galerías y media definitivamente.
 De nuevo Muchas Gracias!!
